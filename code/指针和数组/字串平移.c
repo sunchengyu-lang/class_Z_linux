@@ -16,6 +16,6 @@ int main(){
 	scanf("%s %d",str,&n);
 	
 	translateString(str,n);
-	printf("平移后的字串为：%s\n",str);
+	printf("The resulting string is%s\n",str);
 	return 0;
 }

@@ -3,7 +3,7 @@
 const int N = 110;
 
 void my_strcpy(char *dest,char *src){\
-	//不会溢出数组 
+	
 	while(*src != '\0'){
 		*dest = *src;
 		dest ++ ;

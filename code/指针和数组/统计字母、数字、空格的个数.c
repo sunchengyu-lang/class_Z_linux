@@ -20,9 +20,9 @@ void count(char *str,int *cnt1,int *cnt2,int *cnt3){
 int main(){
 	char str[N];
 	gets(str);
-	int cnt1 = 0,cnt2 = 0,cnt3 = 0;//1.字母2.数字3.空格 
+	int cnt1 = 0,cnt2 = 0,cnt3 = 0;//1.letters2.numbers3.Spaces
 	count(str,&cnt1,&cnt2,&cnt3);
 	
-	printf("字母的个数为：%d,数字的个数为：%d,空格的个数为：%d.\n",cnt1,cnt2,cnt3);
+	printf("The number of letters:%d,The number of numbers:%d,The number of Spaces:%d.\n",cnt1,cnt2,cnt3);
 	return 0;
 }

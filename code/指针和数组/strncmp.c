@@ -1,7 +1,7 @@
 #include <stdio.h>
 
  int my_strncmp(char *p1,char *p2,int n){
- 	int cnt = 0;//¼ÆÊı 
+ 	int cnt = 0;
 	while(*p1 != '\0' && *p2 != '\0' && cnt < n){
 		if(*p1 != *p2)return *p1 - *p2;
 		

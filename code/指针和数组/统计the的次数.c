@@ -21,7 +21,7 @@ int main() {
 	char string[N];
 	scanf("%s",string);
 	
-	printf("the出现的次数为%d\n",cntThe(string));
+	printf("The count of the is : %d\n",cntThe(string));
 	
 	return 0;	
 }

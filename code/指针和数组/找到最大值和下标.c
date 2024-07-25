@@ -20,6 +20,6 @@ int main(){
 	
 	search(a,T,&max,&flag);
 	
-	printf("最大值为%d,下标为%d",max,flag);
+	printf("max:%d,maxn_flag:%d",max,flag);
 	return 0;
 } 

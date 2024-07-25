@@ -4,7 +4,7 @@ const int N = 55;
 
 char* my_strncat(char *dest,const char *src,size_t n){
 	char *dest_end = dest;
-    while(*dest_end != '\0') dest_end ++ ; // ÕÒµ½destµÄÄ©Î²
+    while(*dest_end != '\0') dest_end ++ ;
 	
 	size_t cnt = 0;
 	while(*src != '\0' && cnt < n){

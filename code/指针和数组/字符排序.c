@@ -5,7 +5,6 @@ using namespace std;
 
 const int N = 25,T = 5;
 
-//ц╟ещеепР 
 void sort(char str[][N]){
 	char temp[N];
 	

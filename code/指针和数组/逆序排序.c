@@ -6,12 +6,11 @@ void my_reverse(int a[], int n){
 	int start = 0£¬end = n - 1;
 	
     while (start < end) {
-		//½»»» 
+		//swap 
         int temp = a[start];
         a[start] = a[end];
         a[end] = temp;
 
-        // ÒÆ¶¯Ö¸Õë
         start++;
         end--;
     }

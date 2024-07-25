@@ -21,6 +21,6 @@ int main(){
 	
 	findMax(a,2,3,&ans_x,&ans_y);
 	
-	printf("行下标：%d，列下标：%d，最大值为：%d\n",ans_x,ans_y,a[ans_x][ans_y]);
+	printf("x:%d，y:%d，max:%d\n",ans_x,ans_y,a[ans_x][ans_y]);
 	return 0;
 }

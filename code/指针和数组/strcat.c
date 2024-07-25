@@ -4,7 +4,7 @@ const int N = 55;
 
 char* my_strcat(char *dest,char *src){
 	char *dest_end = dest;
-    while(*dest_end != '\0') dest_end ++ ; // ÕÒµ½destµÄÄ©Î²
+    while(*dest_end != '\0') dest_end ++ ; 
 	
 	while(*src != '\0'){
 		*dest_end = *src;

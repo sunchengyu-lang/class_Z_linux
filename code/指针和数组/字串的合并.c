@@ -22,6 +22,6 @@ int main(){
 	
 	merge(s1,s2,s);
 	
-	printf("合并后的字符串为：%s\n",s);
+	printf("The resulting string is%s\n",s);
 	return 0;
 } 

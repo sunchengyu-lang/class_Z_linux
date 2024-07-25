@@ -9,6 +9,6 @@ int main(){
 		if(strcmp(str,maxString) > 0)strcpy(maxString,str);
 		scanf("%s",str);
 	}
-	printf("×î´ó×Ö´®Îª%s\n",maxString);
+	printf("result:%s\n",maxString);
 	return 0;
 }

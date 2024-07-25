@@ -4,8 +4,7 @@
 using namespace std;
 
 const int N = 110,T = 10;
-
-//ц╟ещеепР 
+ 
 void sort(char str[][N]){
 	char temp[N];
 	
