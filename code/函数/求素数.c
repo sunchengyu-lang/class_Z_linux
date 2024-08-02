@@ -12,7 +12,7 @@ int isPrime(int x)
 
 int main()
 {
-    puts("100ÒÔÄÚµÄËØÊı:");
+    puts("100ä»¥å†…çš„ç´ æ•°:");
     for (int i = 2; i < 101; i++)
         if (isPrime(i))
             printf("%d\n", i);
